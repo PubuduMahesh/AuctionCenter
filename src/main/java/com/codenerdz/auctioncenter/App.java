@@ -3,6 +3,7 @@ package com.codenerdz.auctioncenter;
 import java.awt.EventQueue;
 
 import com.codenerdz.auctioncenter.view.AuctionSheet;
+import com.codenerdz.auctioncenter.view.Bid;
 
 /**
  * Hello world!
@@ -18,8 +19,7 @@ public class App
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					AuctionSheet frame = new AuctionSheet();
-					frame.setVisible(true);
+					new Bid();
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
